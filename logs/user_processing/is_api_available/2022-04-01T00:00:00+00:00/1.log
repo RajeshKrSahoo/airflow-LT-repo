@@ -1,0 +1,25 @@
+[2022-04-02 16:13:12,310] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: user_processing.is_api_available 2022-04-01T00:00:00+00:00 [queued]>
+[2022-04-02 16:13:12,320] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: user_processing.is_api_available 2022-04-01T00:00:00+00:00 [queued]>
+[2022-04-02 16:13:12,320] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-02 16:13:12,320] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-04-02 16:13:12,320] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-04-02 16:13:12,346] {taskinstance.py:1087} INFO - Executing <Task(HttpSensor): is_api_available> on 2022-04-01T00:00:00+00:00
+[2022-04-02 16:13:12,352] {standard_task_runner.py:52} INFO - Started process 2635 to run task
+[2022-04-02 16:13:12,381] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'is_api_available', '2022-04-01T00:00:00+00:00', '--job-id', '27', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmpk2z_lxt4', '--error-file', '/tmp/tmpxecn4q78']
+[2022-04-02 16:13:12,384] {standard_task_runner.py:77} INFO - Job 27: Subtask is_api_available
+[2022-04-02 16:13:12,599] {logging_mixin.py:104} INFO - Running <TaskInstance: user_processing.is_api_available 2022-04-01T00:00:00+00:00 [running]> on host airflowvm
+[2022-04-02 16:13:12,841] {taskinstance.py:1280} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=is_api_available
+AIRFLOW_CTX_EXECUTION_DATE=2022-04-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-04-01T00:00:00+00:00
+[2022-04-02 16:13:12,842] {http.py:101} INFO - Poking: api/v2/admin/location/states/
+[2022-04-02 16:13:12,854] {base.py:69} INFO - Using connection to: id: user_api. Host: https://cdn-api.co-vin.in, Port: None, Schema: , Login: , Password: None, extra: {}
+[2022-04-02 16:13:12,858] {http.py:140} INFO - Sending 'GET' to url: https://cdn-api.co-vin.in/api/v2/admin/location/states/
+[2022-04-02 16:13:13,609] {base.py:243} INFO - Success criteria met. Exiting.
+[2022-04-02 16:13:13,632] {taskinstance.py:1184} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=is_api_available, execution_date=20220401T000000, start_date=20220402T161312, end_date=20220402T161313
+[2022-04-02 16:13:13,771] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-04-02 16:13:13,806] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,1442 @@
+[2022-04-08 10:43:58,025] {scheduler_job.py:182} INFO - Started process (PID=2862) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:43:58,031] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:43:58,034] {logging_mixin.py:104} INFO - [2022-04-08 10:43:58,034] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:43:58,106] {logging_mixin.py:104} INFO - [2022-04-08 10:43:58,096] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:43:58,107] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:43:58,182] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.177 seconds
+[2022-04-08 10:45:17,736] {scheduler_job.py:182} INFO - Started process (PID=3344) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:45:17,738] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:45:17,739] {logging_mixin.py:104} INFO - [2022-04-08 10:45:17,739] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:45:17,758] {logging_mixin.py:104} INFO - [2022-04-08 10:45:17,757] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:45:17,759] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:45:17,803] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.072 seconds
+[2022-04-08 10:45:52,894] {scheduler_job.py:182} INFO - Started process (PID=3431) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:45:52,896] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:45:52,898] {logging_mixin.py:104} INFO - [2022-04-08 10:45:52,897] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:45:52,921] {logging_mixin.py:104} INFO - [2022-04-08 10:45:52,919] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:45:52,922] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:45:52,961] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.072 seconds
+[2022-04-08 10:46:27,382] {scheduler_job.py:182} INFO - Started process (PID=3459) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:46:27,384] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:46:27,386] {logging_mixin.py:104} INFO - [2022-04-08 10:46:27,385] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:46:27,406] {logging_mixin.py:104} INFO - [2022-04-08 10:46:27,404] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:46:27,407] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:46:27,437] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.060 seconds
+[2022-04-08 10:47:08,584] {scheduler_job.py:182} INFO - Started process (PID=3610) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:47:08,588] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:47:08,589] {logging_mixin.py:104} INFO - [2022-04-08 10:47:08,589] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:47:08,609] {logging_mixin.py:104} INFO - [2022-04-08 10:47:08,608] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:47:08,609] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:47:08,646] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.070 seconds
+[2022-04-08 10:47:46,590] {scheduler_job.py:182} INFO - Started process (PID=3641) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:47:46,592] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:47:46,594] {logging_mixin.py:104} INFO - [2022-04-08 10:47:46,594] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:47:46,616] {logging_mixin.py:104} INFO - [2022-04-08 10:47:46,615] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:47:46,618] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:47:46,664] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.082 seconds
+[2022-04-08 10:48:30,071] {scheduler_job.py:182} INFO - Started process (PID=3810) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:48:30,073] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:48:30,075] {logging_mixin.py:104} INFO - [2022-04-08 10:48:30,074] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:48:30,100] {logging_mixin.py:104} INFO - [2022-04-08 10:48:30,099] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:48:30,101] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:48:30,137] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.076 seconds
+[2022-04-08 10:49:12,764] {scheduler_job.py:182} INFO - Started process (PID=3927) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:49:12,769] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:49:12,770] {logging_mixin.py:104} INFO - [2022-04-08 10:49:12,770] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:49:12,802] {logging_mixin.py:104} INFO - [2022-04-08 10:49:12,798] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:49:12,802] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:49:12,855] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.100 seconds
+[2022-04-08 10:49:48,075] {scheduler_job.py:182} INFO - Started process (PID=3955) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:49:48,078] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:49:48,079] {logging_mixin.py:104} INFO - [2022-04-08 10:49:48,079] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:49:48,100] {logging_mixin.py:104} INFO - [2022-04-08 10:49:48,099] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:49:48,101] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:49:48,146] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.078 seconds
+[2022-04-08 10:50:23,634] {scheduler_job.py:182} INFO - Started process (PID=3984) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:50:23,636] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:50:23,638] {logging_mixin.py:104} INFO - [2022-04-08 10:50:23,637] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:50:23,657] {logging_mixin.py:104} INFO - [2022-04-08 10:50:23,656] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:50:23,658] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:50:23,710] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.082 seconds
+[2022-04-08 10:50:57,830] {scheduler_job.py:182} INFO - Started process (PID=4011) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:50:57,832] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:50:57,834] {logging_mixin.py:104} INFO - [2022-04-08 10:50:57,833] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:50:57,853] {logging_mixin.py:104} INFO - [2022-04-08 10:50:57,852] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:50:57,854] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:50:57,900] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.077 seconds
+[2022-04-08 10:51:36,585] {scheduler_job.py:182} INFO - Started process (PID=4041) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:51:36,587] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:51:36,589] {logging_mixin.py:104} INFO - [2022-04-08 10:51:36,588] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:51:36,606] {logging_mixin.py:104} INFO - [2022-04-08 10:51:36,605] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:51:36,607] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:51:36,641] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.062 seconds
+[2022-04-08 10:52:14,993] {scheduler_job.py:182} INFO - Started process (PID=4071) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:52:14,995] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:52:14,996] {logging_mixin.py:104} INFO - [2022-04-08 10:52:14,996] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:52:15,016] {logging_mixin.py:104} INFO - [2022-04-08 10:52:15,015] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:52:15,017] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:52:15,050] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.063 seconds
+[2022-04-08 10:52:46,933] {scheduler_job.py:182} INFO - Started process (PID=4097) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:52:46,936] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:52:46,937] {logging_mixin.py:104} INFO - [2022-04-08 10:52:46,937] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:52:46,960] {logging_mixin.py:104} INFO - [2022-04-08 10:52:46,958] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:52:46,961] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:52:47,001] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.077 seconds
+[2022-04-08 10:53:21,362] {scheduler_job.py:182} INFO - Started process (PID=4124) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:53:21,364] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:53:21,366] {logging_mixin.py:104} INFO - [2022-04-08 10:53:21,366] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:53:21,392] {logging_mixin.py:104} INFO - [2022-04-08 10:53:21,389] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:53:21,393] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:53:21,437] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.083 seconds
+[2022-04-08 10:53:56,718] {scheduler_job.py:182} INFO - Started process (PID=4195) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:53:56,719] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:53:56,721] {logging_mixin.py:104} INFO - [2022-04-08 10:53:56,721] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:53:56,742] {logging_mixin.py:104} INFO - [2022-04-08 10:53:56,741] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:53:56,743] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:53:56,785] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.074 seconds
+[2022-04-08 10:54:34,834] {scheduler_job.py:182} INFO - Started process (PID=4225) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:54:34,838] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:54:34,839] {logging_mixin.py:104} INFO - [2022-04-08 10:54:34,839] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:54:34,859] {logging_mixin.py:104} INFO - [2022-04-08 10:54:34,858] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:54:34,860] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:54:34,905] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.077 seconds
+[2022-04-08 10:55:08,558] {scheduler_job.py:182} INFO - Started process (PID=4253) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:55:08,562] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:55:08,563] {logging_mixin.py:104} INFO - [2022-04-08 10:55:08,563] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:55:08,581] {logging_mixin.py:104} INFO - [2022-04-08 10:55:08,580] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:55:08,582] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:55:08,628] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.076 seconds
+[2022-04-08 10:55:44,909] {scheduler_job.py:182} INFO - Started process (PID=4283) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:55:44,910] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:55:44,912] {logging_mixin.py:104} INFO - [2022-04-08 10:55:44,911] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:55:44,930] {logging_mixin.py:104} INFO - [2022-04-08 10:55:44,929] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:55:44,931] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:55:44,968] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.066 seconds
+[2022-04-08 10:56:22,294] {scheduler_job.py:182} INFO - Started process (PID=4312) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:56:22,297] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:56:22,298] {logging_mixin.py:104} INFO - [2022-04-08 10:56:22,298] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:56:22,320] {logging_mixin.py:104} INFO - [2022-04-08 10:56:22,319] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:56:22,321] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:56:22,364] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.075 seconds
+[2022-04-08 10:56:57,750] {scheduler_job.py:182} INFO - Started process (PID=4341) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:56:57,753] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:56:57,754] {logging_mixin.py:104} INFO - [2022-04-08 10:56:57,754] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:56:57,781] {logging_mixin.py:104} INFO - [2022-04-08 10:56:57,779] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:56:57,781] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:56:57,829] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.084 seconds
+[2022-04-08 10:57:29,978] {scheduler_job.py:182} INFO - Started process (PID=4367) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:57:29,980] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:57:29,981] {logging_mixin.py:104} INFO - [2022-04-08 10:57:29,981] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:57:30,004] {logging_mixin.py:104} INFO - [2022-04-08 10:57:30,002] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:57:30,004] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:57:30,036] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.064 seconds
+[2022-04-08 10:58:05,175] {scheduler_job.py:182} INFO - Started process (PID=4395) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:58:05,177] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:58:05,179] {logging_mixin.py:104} INFO - [2022-04-08 10:58:05,178] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:58:05,202] {logging_mixin.py:104} INFO - [2022-04-08 10:58:05,200] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:58:05,202] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:58:05,233] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.064 seconds
+[2022-04-08 10:58:39,226] {scheduler_job.py:182} INFO - Started process (PID=4465) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:58:39,227] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:58:39,228] {logging_mixin.py:104} INFO - [2022-04-08 10:58:39,228] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:58:39,247] {logging_mixin.py:104} INFO - [2022-04-08 10:58:39,246] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:58:39,248] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:58:39,292] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.071 seconds
+[2022-04-08 10:59:10,398] {scheduler_job.py:182} INFO - Started process (PID=4490) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:59:10,405] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 10:59:10,409] {logging_mixin.py:104} INFO - [2022-04-08 10:59:10,409] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:59:10,435] {logging_mixin.py:104} INFO - [2022-04-08 10:59:10,434] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 10:59:10,435] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 10:59:10,482] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.096 seconds
+[2022-04-08 11:03:19,663] {scheduler_job.py:182} INFO - Started process (PID=4650) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:03:19,666] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:03:19,688] {logging_mixin.py:104} INFO - [2022-04-08 11:03:19,688] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:03:19,779] {logging_mixin.py:104} INFO - [2022-04-08 11:03:19,777] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:03:19,780] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:03:19,877] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.239 seconds
+[2022-04-08 11:03:54,282] {scheduler_job.py:182} INFO - Started process (PID=4738) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:03:54,284] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:03:54,286] {logging_mixin.py:104} INFO - [2022-04-08 11:03:54,286] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:03:54,320] {logging_mixin.py:104} INFO - [2022-04-08 11:03:54,318] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:03:54,321] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:03:54,365] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.089 seconds
+[2022-04-08 11:04:26,974] {scheduler_job.py:182} INFO - Started process (PID=4763) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:04:26,978] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:04:26,979] {logging_mixin.py:104} INFO - [2022-04-08 11:04:26,979] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:04:27,008] {logging_mixin.py:104} INFO - [2022-04-08 11:04:27,006] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:04:27,010] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:04:27,058] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.090 seconds
+[2022-04-08 11:05:02,612] {scheduler_job.py:182} INFO - Started process (PID=4792) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:05:02,614] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:05:02,617] {logging_mixin.py:104} INFO - [2022-04-08 11:05:02,616] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:05:02,639] {logging_mixin.py:104} INFO - [2022-04-08 11:05:02,637] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:05:02,642] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:05:02,687] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.081 seconds
+[2022-04-08 11:05:37,118] {scheduler_job.py:182} INFO - Started process (PID=4862) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:05:37,120] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:05:37,122] {logging_mixin.py:104} INFO - [2022-04-08 11:05:37,122] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:05:37,144] {logging_mixin.py:104} INFO - [2022-04-08 11:05:37,143] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:05:37,145] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:05:37,189] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.077 seconds
+[2022-04-08 11:06:16,933] {scheduler_job.py:182} INFO - Started process (PID=5027) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:06:16,936] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:06:16,938] {logging_mixin.py:104} INFO - [2022-04-08 11:06:16,938] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:06:16,964] {logging_mixin.py:104} INFO - [2022-04-08 11:06:16,961] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:06:16,965] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:06:17,018] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.093 seconds
+[2022-04-08 11:06:53,711] {scheduler_job.py:182} INFO - Started process (PID=5422) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:06:53,714] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:06:53,715] {logging_mixin.py:104} INFO - [2022-04-08 11:06:53,715] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:06:53,734] {logging_mixin.py:104} INFO - [2022-04-08 11:06:53,733] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:06:53,736] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:06:53,787] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.082 seconds
+[2022-04-08 11:07:36,236] {scheduler_job.py:182} INFO - Started process (PID=5669) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:07:36,239] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:07:36,240] {logging_mixin.py:104} INFO - [2022-04-08 11:07:36,240] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:07:36,261] {logging_mixin.py:104} INFO - [2022-04-08 11:07:36,260] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:07:36,261] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:07:36,297] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.068 seconds
+[2022-04-08 11:08:22,987] {scheduler_job.py:182} INFO - Started process (PID=5969) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:08:22,989] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:08:22,991] {logging_mixin.py:104} INFO - [2022-04-08 11:08:22,990] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:08:23,010] {logging_mixin.py:104} INFO - [2022-04-08 11:08:23,008] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:08:23,011] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:08:23,137] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.155 seconds
+[2022-04-08 11:08:56,587] {scheduler_job.py:182} INFO - Started process (PID=6170) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:08:56,589] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:08:56,590] {logging_mixin.py:104} INFO - [2022-04-08 11:08:56,590] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:08:56,613] {logging_mixin.py:104} INFO - [2022-04-08 11:08:56,611] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:08:56,615] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:08:56,649] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.068 seconds
+[2022-04-08 11:09:34,168] {scheduler_job.py:182} INFO - Started process (PID=6200) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:09:34,171] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:09:34,172] {logging_mixin.py:104} INFO - [2022-04-08 11:09:34,172] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:09:34,192] {logging_mixin.py:104} INFO - [2022-04-08 11:09:34,190] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:09:34,193] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:09:34,236] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.074 seconds
+[2022-04-08 11:10:09,435] {scheduler_job.py:182} INFO - Started process (PID=6228) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:10:09,437] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:10:09,439] {logging_mixin.py:104} INFO - [2022-04-08 11:10:09,439] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:10:09,462] {logging_mixin.py:104} INFO - [2022-04-08 11:10:09,459] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:10:09,463] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:10:09,507] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.081 seconds
+[2022-04-08 11:10:49,449] {scheduler_job.py:182} INFO - Started process (PID=6259) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:10:49,454] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:10:49,455] {logging_mixin.py:104} INFO - [2022-04-08 11:10:49,455] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:10:49,474] {logging_mixin.py:104} INFO - [2022-04-08 11:10:49,473] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:10:49,475] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:10:49,523] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.079 seconds
+[2022-04-08 11:11:29,967] {scheduler_job.py:182} INFO - Started process (PID=6291) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:11:29,969] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:11:29,970] {logging_mixin.py:104} INFO - [2022-04-08 11:11:29,970] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:11:29,991] {logging_mixin.py:104} INFO - [2022-04-08 11:11:29,989] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:11:29,992] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:11:30,024] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.064 seconds
+[2022-04-08 11:13:29,962] {scheduler_job.py:182} INFO - Started process (PID=6366) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:13:29,965] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:13:29,975] {logging_mixin.py:104} INFO - [2022-04-08 11:13:29,974] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:13:30,019] {logging_mixin.py:104} INFO - [2022-04-08 11:13:30,017] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:13:30,020] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:13:30,535] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.590 seconds
+[2022-04-08 11:14:10,474] {scheduler_job.py:182} INFO - Started process (PID=6582) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:14:10,476] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:14:10,477] {logging_mixin.py:104} INFO - [2022-04-08 11:14:10,477] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:14:10,497] {logging_mixin.py:104} INFO - [2022-04-08 11:14:10,496] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:14:10,498] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:14:10,543] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.076 seconds
+[2022-04-08 11:14:40,720] {scheduler_job.py:182} INFO - Started process (PID=6877) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:14:40,736] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:14:40,742] {logging_mixin.py:104} INFO - [2022-04-08 11:14:40,741] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:14:40,825] {logging_mixin.py:104} INFO - [2022-04-08 11:14:40,822] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:14:40,836] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:14:41,185] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.499 seconds
+[2022-04-08 11:15:22,210] {scheduler_job.py:182} INFO - Started process (PID=9666) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:15:22,229] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:15:22,234] {logging_mixin.py:104} INFO - [2022-04-08 11:15:22,234] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:15:22,264] {logging_mixin.py:104} INFO - [2022-04-08 11:15:22,263] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:15:22,265] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:15:22,405] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.208 seconds
+[2022-04-08 11:15:59,708] {scheduler_job.py:182} INFO - Started process (PID=10194) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:15:59,710] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:15:59,712] {logging_mixin.py:104} INFO - [2022-04-08 11:15:59,712] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:15:59,730] {logging_mixin.py:104} INFO - [2022-04-08 11:15:59,729] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:15:59,731] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:15:59,775] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.074 seconds
+[2022-04-08 11:16:36,705] {scheduler_job.py:182} INFO - Started process (PID=10225) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:16:36,707] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:16:36,708] {logging_mixin.py:104} INFO - [2022-04-08 11:16:36,708] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:16:36,729] {logging_mixin.py:104} INFO - [2022-04-08 11:16:36,728] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:16:36,730] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:16:36,773] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.075 seconds
+[2022-04-08 11:17:12,061] {scheduler_job.py:182} INFO - Started process (PID=10256) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:17:12,063] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:17:12,065] {logging_mixin.py:104} INFO - [2022-04-08 11:17:12,065] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:17:12,087] {logging_mixin.py:104} INFO - [2022-04-08 11:17:12,086] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:17:12,088] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:17:12,121] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.066 seconds
+[2022-04-08 11:17:45,792] {scheduler_job.py:182} INFO - Started process (PID=10285) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:17:45,796] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:17:45,797] {logging_mixin.py:104} INFO - [2022-04-08 11:17:45,797] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:17:45,819] {logging_mixin.py:104} INFO - [2022-04-08 11:17:45,817] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:17:45,819] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:17:45,867] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.082 seconds
+[2022-04-08 11:18:19,103] {scheduler_job.py:182} INFO - Started process (PID=10313) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:18:19,106] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 11:18:19,107] {logging_mixin.py:104} INFO - [2022-04-08 11:18:19,107] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:18:19,127] {logging_mixin.py:104} INFO - [2022-04-08 11:18:19,126] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 11:18:19,128] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 11:18:19,175] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.078 seconds
+[2022-04-08 12:05:57,892] {scheduler_job.py:182} INFO - Started process (PID=10538) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:05:57,901] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 12:05:57,911] {logging_mixin.py:104} INFO - [2022-04-08 12:05:57,911] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:05:57,977] {logging_mixin.py:104} INFO - [2022-04-08 12:05:57,975] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 12:05:57,980] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:05:58,124] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.259 seconds
+[2022-04-08 12:06:45,728] {scheduler_job.py:182} INFO - Started process (PID=10723) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:06:45,732] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 12:06:45,734] {logging_mixin.py:104} INFO - [2022-04-08 12:06:45,733] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:06:45,757] {logging_mixin.py:104} INFO - [2022-04-08 12:06:45,755] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 12:06:45,758] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:06:45,796] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.075 seconds
+[2022-04-08 12:07:18,981] {scheduler_job.py:182} INFO - Started process (PID=10749) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:07:18,983] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 12:07:18,984] {logging_mixin.py:104} INFO - [2022-04-08 12:07:18,984] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:07:19,004] {logging_mixin.py:104} INFO - [2022-04-08 12:07:19,002] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 12:07:19,005] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:07:19,048] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.074 seconds
+[2022-04-08 12:07:49,911] {scheduler_job.py:182} INFO - Started process (PID=10776) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:07:49,914] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 12:07:49,916] {logging_mixin.py:104} INFO - [2022-04-08 12:07:49,915] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:07:49,935] {logging_mixin.py:104} INFO - [2022-04-08 12:07:49,933] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 12:07:49,936] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:07:49,980] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.074 seconds
+[2022-04-08 12:08:21,810] {scheduler_job.py:182} INFO - Started process (PID=10801) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:08:21,812] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 12:08:21,814] {logging_mixin.py:104} INFO - [2022-04-08 12:08:21,814] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:08:21,832] {logging_mixin.py:104} INFO - [2022-04-08 12:08:21,831] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 12:08:21,833] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:08:21,875] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.072 seconds
+[2022-04-08 12:08:54,974] {scheduler_job.py:182} INFO - Started process (PID=10831) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:08:54,975] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 12:08:54,977] {logging_mixin.py:104} INFO - [2022-04-08 12:08:54,977] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:08:54,996] {logging_mixin.py:104} INFO - [2022-04-08 12:08:54,995] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 12:08:54,997] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:08:55,040] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.072 seconds
+[2022-04-08 12:09:31,529] {scheduler_job.py:182} INFO - Started process (PID=10861) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:09:31,532] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 12:09:31,533] {logging_mixin.py:104} INFO - [2022-04-08 12:09:31,533] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:09:31,556] {logging_mixin.py:104} INFO - [2022-04-08 12:09:31,555] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 12:09:31,557] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:09:31,593] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.070 seconds
+[2022-04-08 12:10:05,169] {scheduler_job.py:182} INFO - Started process (PID=10889) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:10:05,173] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 12:10:05,176] {logging_mixin.py:104} INFO - [2022-04-08 12:10:05,175] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:10:05,199] {logging_mixin.py:104} INFO - [2022-04-08 12:10:05,197] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 12:10:05,200] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 12:10:05,247] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.088 seconds
+[2022-04-08 13:35:44,758] {scheduler_job.py:182} INFO - Started process (PID=11089) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:35:44,759] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:35:44,760] {logging_mixin.py:104} INFO - [2022-04-08 13:35:44,760] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:35:44,776] {logging_mixin.py:104} INFO - [2022-04-08 13:35:44,775] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:35:44,778] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:35:44,805] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.054 seconds
+[2022-04-08 13:36:25,594] {scheduler_job.py:182} INFO - Started process (PID=11160) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:36:25,596] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:36:25,600] {logging_mixin.py:104} INFO - [2022-04-08 13:36:25,599] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:36:25,629] {logging_mixin.py:104} INFO - [2022-04-08 13:36:25,626] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:36:25,630] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:36:25,666] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.079 seconds
+[2022-04-08 13:37:08,362] {scheduler_job.py:182} INFO - Started process (PID=11224) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:37:08,364] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:37:08,366] {logging_mixin.py:104} INFO - [2022-04-08 13:37:08,366] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:37:08,393] {logging_mixin.py:104} INFO - [2022-04-08 13:37:08,389] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:37:08,394] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:37:08,439] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.083 seconds
+[2022-04-08 13:37:46,745] {scheduler_job.py:182} INFO - Started process (PID=11255) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:37:46,749] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:37:46,751] {logging_mixin.py:104} INFO - [2022-04-08 13:37:46,750] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:37:46,776] {logging_mixin.py:104} INFO - [2022-04-08 13:37:46,774] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:37:46,777] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:37:46,819] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.082 seconds
+[2022-04-08 13:38:28,773] {scheduler_job.py:182} INFO - Started process (PID=11286) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:38:28,775] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:38:28,777] {logging_mixin.py:104} INFO - [2022-04-08 13:38:28,777] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:38:28,798] {logging_mixin.py:104} INFO - [2022-04-08 13:38:28,796] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:38:28,798] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:38:28,828] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.062 seconds
+[2022-04-08 13:39:07,219] {scheduler_job.py:182} INFO - Started process (PID=11318) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:39:07,221] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:39:07,223] {logging_mixin.py:104} INFO - [2022-04-08 13:39:07,222] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:39:07,244] {logging_mixin.py:104} INFO - [2022-04-08 13:39:07,242] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:39:07,245] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:39:07,292] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.080 seconds
+[2022-04-08 13:39:49,906] {scheduler_job.py:182} INFO - Started process (PID=11351) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:39:49,908] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:39:49,909] {logging_mixin.py:104} INFO - [2022-04-08 13:39:49,909] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:39:49,931] {logging_mixin.py:104} INFO - [2022-04-08 13:39:49,929] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:39:49,931] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:39:49,980] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.080 seconds
+[2022-04-08 13:40:29,597] {scheduler_job.py:182} INFO - Started process (PID=11382) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:40:29,599] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:40:29,600] {logging_mixin.py:104} INFO - [2022-04-08 13:40:29,600] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:40:29,619] {logging_mixin.py:104} INFO - [2022-04-08 13:40:29,618] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:40:29,620] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:40:29,653] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.063 seconds
+[2022-04-08 13:45:12,360] {scheduler_job.py:182} INFO - Started process (PID=11611) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:45:12,415] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:45:12,416] {logging_mixin.py:104} INFO - [2022-04-08 13:45:12,416] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:45:12,451] {logging_mixin.py:104} INFO - [2022-04-08 13:45:12,450] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:45:12,487] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:45:12,647] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.293 seconds
+[2022-04-08 13:46:06,525] {scheduler_job.py:182} INFO - Started process (PID=11842) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:46:06,528] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:46:06,529] {logging_mixin.py:104} INFO - [2022-04-08 13:46:06,529] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:46:06,550] {logging_mixin.py:104} INFO - [2022-04-08 13:46:06,548] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:46:06,551] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:46:06,604] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.088 seconds
+[2022-04-08 13:46:47,155] {scheduler_job.py:182} INFO - Started process (PID=11873) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:46:47,158] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:46:47,160] {logging_mixin.py:104} INFO - [2022-04-08 13:46:47,160] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:46:47,182] {logging_mixin.py:104} INFO - [2022-04-08 13:46:47,179] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:46:47,182] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:46:47,324] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.175 seconds
+[2022-04-08 13:47:31,121] {scheduler_job.py:182} INFO - Started process (PID=11906) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:47:31,123] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:47:31,125] {logging_mixin.py:104} INFO - [2022-04-08 13:47:31,125] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:47:31,150] {logging_mixin.py:104} INFO - [2022-04-08 13:47:31,147] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:47:31,151] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:47:31,296] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.181 seconds
+[2022-04-08 13:48:15,596] {scheduler_job.py:182} INFO - Started process (PID=11941) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:48:15,598] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:48:15,599] {logging_mixin.py:104} INFO - [2022-04-08 13:48:15,599] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:48:15,729] {logging_mixin.py:104} INFO - [2022-04-08 13:48:15,728] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:48:15,730] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:48:15,772] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.182 seconds
+[2022-04-08 13:48:56,341] {scheduler_job.py:182} INFO - Started process (PID=11973) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:48:56,344] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:48:56,345] {logging_mixin.py:104} INFO - [2022-04-08 13:48:56,345] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:48:56,479] {logging_mixin.py:104} INFO - [2022-04-08 13:48:56,478] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:48:56,480] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:48:56,528] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.193 seconds
+[2022-04-08 13:49:40,237] {scheduler_job.py:182} INFO - Started process (PID=12006) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:49:40,239] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:49:40,241] {logging_mixin.py:104} INFO - [2022-04-08 13:49:40,240] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:49:40,358] {logging_mixin.py:104} INFO - [2022-04-08 13:49:40,356] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:49:40,359] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:49:40,405] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.174 seconds
+[2022-04-08 13:50:20,923] {scheduler_job.py:182} INFO - Started process (PID=12039) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:50:20,926] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:50:20,928] {logging_mixin.py:104} INFO - [2022-04-08 13:50:20,928] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:50:21,089] {logging_mixin.py:104} INFO - [2022-04-08 13:50:21,088] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:50:21,090] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:50:21,139] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.222 seconds
+[2022-04-08 13:51:03,937] {scheduler_job.py:182} INFO - Started process (PID=12117) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:51:03,939] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:51:03,942] {logging_mixin.py:104} INFO - [2022-04-08 13:51:03,941] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:51:03,971] {logging_mixin.py:104} INFO - [2022-04-08 13:51:03,969] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:51:03,973] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:51:04,020] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.095 seconds
+[2022-04-08 13:51:44,089] {scheduler_job.py:182} INFO - Started process (PID=12148) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:51:44,091] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:51:44,093] {logging_mixin.py:104} INFO - [2022-04-08 13:51:44,093] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:51:44,118] {logging_mixin.py:104} INFO - [2022-04-08 13:51:44,117] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:51:44,119] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:51:44,183] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.101 seconds
+[2022-04-08 13:52:22,098] {scheduler_job.py:182} INFO - Started process (PID=12179) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:52:22,101] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:52:22,102] {logging_mixin.py:104} INFO - [2022-04-08 13:52:22,102] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:52:22,128] {logging_mixin.py:104} INFO - [2022-04-08 13:52:22,125] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:52:22,129] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:52:22,176] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.090 seconds
+[2022-04-08 13:53:01,620] {scheduler_job.py:182} INFO - Started process (PID=12210) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:53:01,625] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:53:01,626] {logging_mixin.py:104} INFO - [2022-04-08 13:53:01,626] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:53:01,649] {logging_mixin.py:104} INFO - [2022-04-08 13:53:01,648] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:53:01,650] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:53:01,697] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.086 seconds
+[2022-04-08 13:53:44,781] {scheduler_job.py:182} INFO - Started process (PID=12242) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:53:44,785] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:53:44,786] {logging_mixin.py:104} INFO - [2022-04-08 13:53:44,786] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:53:44,812] {logging_mixin.py:104} INFO - [2022-04-08 13:53:44,811] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:53:44,813] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:53:44,857] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.084 seconds
+[2022-04-08 13:54:25,601] {scheduler_job.py:182} INFO - Started process (PID=12276) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:54:25,604] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:54:25,606] {logging_mixin.py:104} INFO - [2022-04-08 13:54:25,606] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:54:25,642] {logging_mixin.py:104} INFO - [2022-04-08 13:54:25,638] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:54:25,642] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:54:25,692] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.101 seconds
+[2022-04-08 13:55:02,734] {scheduler_job.py:182} INFO - Started process (PID=12309) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:55:02,738] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:55:02,741] {logging_mixin.py:104} INFO - [2022-04-08 13:55:02,741] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:55:02,770] {logging_mixin.py:104} INFO - [2022-04-08 13:55:02,768] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:55:02,771] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:55:02,843] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.114 seconds
+[2022-04-08 13:55:39,981] {scheduler_job.py:182} INFO - Started process (PID=12362) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:55:39,984] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:55:39,985] {logging_mixin.py:104} INFO - [2022-04-08 13:55:39,985] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:55:40,016] {logging_mixin.py:104} INFO - [2022-04-08 13:55:40,015] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:55:40,017] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:55:40,085] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.111 seconds
+[2022-04-08 13:56:19,466] {scheduler_job.py:182} INFO - Started process (PID=12415) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:56:19,468] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:56:19,470] {logging_mixin.py:104} INFO - [2022-04-08 13:56:19,470] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:56:19,495] {logging_mixin.py:104} INFO - [2022-04-08 13:56:19,493] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:56:19,496] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:56:19,535] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.077 seconds
+[2022-04-08 13:56:57,214] {scheduler_job.py:182} INFO - Started process (PID=12446) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:56:57,217] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:56:57,218] {logging_mixin.py:104} INFO - [2022-04-08 13:56:57,218] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:56:57,244] {logging_mixin.py:104} INFO - [2022-04-08 13:56:57,240] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:56:57,246] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:56:57,298] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.091 seconds
+[2022-04-08 13:57:36,717] {scheduler_job.py:182} INFO - Started process (PID=12476) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:57:36,719] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:57:36,721] {logging_mixin.py:104} INFO - [2022-04-08 13:57:36,720] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:57:36,765] {logging_mixin.py:104} INFO - [2022-04-08 13:57:36,763] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:57:36,766] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:57:36,818] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.110 seconds
+[2022-04-08 13:58:20,965] {scheduler_job.py:182} INFO - Started process (PID=12510) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:58:20,968] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:58:20,971] {logging_mixin.py:104} INFO - [2022-04-08 13:58:20,970] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:58:20,996] {logging_mixin.py:104} INFO - [2022-04-08 13:58:20,994] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:58:20,997] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:58:21,038] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.082 seconds
+[2022-04-08 13:59:00,126] {scheduler_job.py:182} INFO - Started process (PID=12541) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:59:00,128] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:59:00,130] {logging_mixin.py:104} INFO - [2022-04-08 13:59:00,130] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:59:00,158] {logging_mixin.py:104} INFO - [2022-04-08 13:59:00,156] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:59:00,159] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:59:00,213] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.103 seconds
+[2022-04-08 13:59:38,139] {scheduler_job.py:182} INFO - Started process (PID=12570) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:59:38,143] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 13:59:38,144] {logging_mixin.py:104} INFO - [2022-04-08 13:59:38,144] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:59:38,170] {logging_mixin.py:104} INFO - [2022-04-08 13:59:38,168] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 13:59:38,171] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 13:59:38,207] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.081 seconds
+[2022-04-08 14:00:21,493] {scheduler_job.py:182} INFO - Started process (PID=12605) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:00:21,495] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:00:21,497] {logging_mixin.py:104} INFO - [2022-04-08 14:00:21,497] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:00:21,524] {logging_mixin.py:104} INFO - [2022-04-08 14:00:21,522] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:00:21,525] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:00:21,580] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.095 seconds
+[2022-04-08 14:01:02,114] {scheduler_job.py:182} INFO - Started process (PID=12680) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:01:02,119] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:01:02,122] {logging_mixin.py:104} INFO - [2022-04-08 14:01:02,121] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:01:02,162] {logging_mixin.py:104} INFO - [2022-04-08 14:01:02,160] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:01:02,162] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:01:02,221] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.113 seconds
+[2022-04-08 14:01:45,189] {scheduler_job.py:182} INFO - Started process (PID=12712) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:01:45,192] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:01:45,194] {logging_mixin.py:104} INFO - [2022-04-08 14:01:45,193] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:01:45,220] {logging_mixin.py:104} INFO - [2022-04-08 14:01:45,218] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:01:45,221] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:01:45,269] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.086 seconds
+[2022-04-08 14:02:26,841] {scheduler_job.py:182} INFO - Started process (PID=12744) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:02:26,845] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:02:26,847] {logging_mixin.py:104} INFO - [2022-04-08 14:02:26,846] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:02:26,876] {logging_mixin.py:104} INFO - [2022-04-08 14:02:26,873] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:02:26,877] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:02:26,928] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.095 seconds
+[2022-04-08 14:03:07,437] {scheduler_job.py:182} INFO - Started process (PID=12778) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:03:07,441] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:03:07,442] {logging_mixin.py:104} INFO - [2022-04-08 14:03:07,442] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:03:07,465] {logging_mixin.py:104} INFO - [2022-04-08 14:03:07,464] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:03:07,466] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:03:07,517] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.087 seconds
+[2022-04-08 14:03:46,772] {scheduler_job.py:182} INFO - Started process (PID=12808) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:03:46,775] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:03:46,776] {logging_mixin.py:104} INFO - [2022-04-08 14:03:46,776] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:03:46,802] {logging_mixin.py:104} INFO - [2022-04-08 14:03:46,800] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:03:46,804] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:03:46,841] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.077 seconds
+[2022-04-08 14:04:32,213] {scheduler_job.py:182} INFO - Started process (PID=12843) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:04:32,216] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:04:32,219] {logging_mixin.py:104} INFO - [2022-04-08 14:04:32,219] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:04:32,259] {logging_mixin.py:104} INFO - [2022-04-08 14:04:32,257] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:04:32,261] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:04:32,304] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.103 seconds
+[2022-04-08 14:05:13,184] {scheduler_job.py:182} INFO - Started process (PID=12880) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:05:13,186] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:05:13,188] {logging_mixin.py:104} INFO - [2022-04-08 14:05:13,188] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:05:13,213] {logging_mixin.py:104} INFO - [2022-04-08 14:05:13,211] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:05:13,214] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:05:13,264] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.088 seconds
+[2022-04-08 14:05:50,496] {scheduler_job.py:182} INFO - Started process (PID=12953) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:05:50,499] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:05:50,501] {logging_mixin.py:104} INFO - [2022-04-08 14:05:50,501] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:05:50,529] {logging_mixin.py:104} INFO - [2022-04-08 14:05:50,527] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:05:50,530] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:05:50,581] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.092 seconds
+[2022-04-08 14:06:23,023] {scheduler_job.py:182} INFO - Started process (PID=12978) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:06:23,026] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:06:23,029] {logging_mixin.py:104} INFO - [2022-04-08 14:06:23,029] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:06:23,055] {logging_mixin.py:104} INFO - [2022-04-08 14:06:23,053] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:06:23,056] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:06:23,099] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.083 seconds
+[2022-04-08 14:07:03,431] {scheduler_job.py:182} INFO - Started process (PID=13011) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:07:03,435] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:07:03,436] {logging_mixin.py:104} INFO - [2022-04-08 14:07:03,436] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:07:03,461] {logging_mixin.py:104} INFO - [2022-04-08 14:07:03,459] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:07:03,461] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:07:03,515] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.090 seconds
+[2022-04-08 14:07:39,850] {scheduler_job.py:182} INFO - Started process (PID=13039) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:07:39,855] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:07:39,858] {logging_mixin.py:104} INFO - [2022-04-08 14:07:39,857] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:07:39,882] {logging_mixin.py:104} INFO - [2022-04-08 14:07:39,879] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:07:39,883] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:07:39,930] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.094 seconds
+[2022-04-08 14:08:19,596] {scheduler_job.py:182} INFO - Started process (PID=13070) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:08:19,599] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:08:19,601] {logging_mixin.py:104} INFO - [2022-04-08 14:08:19,601] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:08:19,629] {logging_mixin.py:104} INFO - [2022-04-08 14:08:19,627] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:08:19,631] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:08:19,678] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.090 seconds
+[2022-04-08 14:08:55,320] {scheduler_job.py:182} INFO - Started process (PID=13101) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:08:55,326] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:08:55,328] {logging_mixin.py:104} INFO - [2022-04-08 14:08:55,327] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:08:55,350] {logging_mixin.py:104} INFO - [2022-04-08 14:08:55,349] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:08:55,352] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:08:55,399] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.089 seconds
+[2022-04-08 14:09:30,703] {scheduler_job.py:182} INFO - Started process (PID=13130) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:09:30,705] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:09:30,708] {logging_mixin.py:104} INFO - [2022-04-08 14:09:30,708] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:09:30,737] {logging_mixin.py:104} INFO - [2022-04-08 14:09:30,736] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:09:30,738] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:09:30,780] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.085 seconds
+[2022-04-08 14:10:01,942] {scheduler_job.py:182} INFO - Started process (PID=13158) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:10:01,945] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:10:01,946] {logging_mixin.py:104} INFO - [2022-04-08 14:10:01,946] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:10:01,974] {logging_mixin.py:104} INFO - [2022-04-08 14:10:01,972] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:10:01,974] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:10:02,017] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.082 seconds
+[2022-04-08 14:30:38,876] {scheduler_job.py:182} INFO - Started process (PID=13432) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:30:38,878] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-04-08 14:30:38,879] {logging_mixin.py:104} INFO - [2022-04-08 14:30:38,879] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:30:38,894] {logging_mixin.py:104} INFO - [2022-04-08 14:30:38,893] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/parallel_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/parallel_dag.py", line 40, in <module>
+    task_1 >> [task_2,task_3] >> task_4
+NameError: name 'task_1' is not defined
+[2022-04-08 14:30:38,894] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-04-08 14:30:38,928] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.056 seconds

@@ -1,0 +1,616 @@
+[2022-03-30 17:20:38,347] {scheduler_job.py:182} INFO - Started process (PID=124203) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:20:38,350] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:20:38,351] {logging_mixin.py:104} INFO - [2022-03-30 17:20:38,351] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:20:38,368] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:20:38,677] {logging_mixin.py:104} INFO - [2022-03-30 17:20:38,677] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:20:38,689] {logging_mixin.py:104} INFO - [2022-03-30 17:20:38,689] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:20:38,707] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.367 seconds
+[2022-03-30 17:21:20,061] {scheduler_job.py:182} INFO - Started process (PID=124355) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:21:20,063] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:21:20,064] {logging_mixin.py:104} INFO - [2022-03-30 17:21:20,064] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:21:20,075] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:21:20,092] {logging_mixin.py:104} INFO - [2022-03-30 17:21:20,091] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:21:20,107] {logging_mixin.py:104} INFO - [2022-03-30 17:21:20,107] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:21:20,133] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.075 seconds
+[2022-03-30 17:21:54,179] {scheduler_job.py:182} INFO - Started process (PID=124418) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:21:54,180] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:21:54,180] {logging_mixin.py:104} INFO - [2022-03-30 17:21:54,180] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:21:54,198] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:21:54,213] {logging_mixin.py:104} INFO - [2022-03-30 17:21:54,213] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:21:54,222] {logging_mixin.py:104} INFO - [2022-03-30 17:21:54,222] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:21:54,237] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.062 seconds
+[2022-03-30 17:22:27,884] {scheduler_job.py:182} INFO - Started process (PID=124451) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:22:27,885] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:22:27,885] {logging_mixin.py:104} INFO - [2022-03-30 17:22:27,885] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:22:27,901] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:22:27,922] {logging_mixin.py:104} INFO - [2022-03-30 17:22:27,922] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:22:27,937] {logging_mixin.py:104} INFO - [2022-03-30 17:22:27,936] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:22:27,959] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.079 seconds
+[2022-03-30 17:23:03,169] {scheduler_job.py:182} INFO - Started process (PID=124484) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:23:03,170] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:23:03,170] {logging_mixin.py:104} INFO - [2022-03-30 17:23:03,170] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:23:03,185] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:23:03,202] {logging_mixin.py:104} INFO - [2022-03-30 17:23:03,201] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:23:03,210] {logging_mixin.py:104} INFO - [2022-03-30 17:23:03,210] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:23:03,232] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.066 seconds
+[2022-03-30 17:23:35,542] {scheduler_job.py:182} INFO - Started process (PID=124515) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:23:35,544] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:23:35,545] {logging_mixin.py:104} INFO - [2022-03-30 17:23:35,545] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:23:35,554] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:23:35,565] {logging_mixin.py:104} INFO - [2022-03-30 17:23:35,565] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:23:35,579] {logging_mixin.py:104} INFO - [2022-03-30 17:23:35,579] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:23:35,599] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.062 seconds
+[2022-03-30 17:24:10,426] {scheduler_job.py:182} INFO - Started process (PID=124583) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:24:10,427] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:24:10,428] {logging_mixin.py:104} INFO - [2022-03-30 17:24:10,428] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:24:10,440] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:24:10,453] {logging_mixin.py:104} INFO - [2022-03-30 17:24:10,453] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:24:10,468] {logging_mixin.py:104} INFO - [2022-03-30 17:24:10,468] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:24:10,488] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.064 seconds
+[2022-03-30 17:24:42,081] {scheduler_job.py:182} INFO - Started process (PID=124613) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:24:42,082] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:24:42,083] {logging_mixin.py:104} INFO - [2022-03-30 17:24:42,083] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:24:42,092] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:24:42,108] {logging_mixin.py:104} INFO - [2022-03-30 17:24:42,107] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:24:42,126] {logging_mixin.py:104} INFO - [2022-03-30 17:24:42,126] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:24:42,146] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.069 seconds
+[2022-03-30 17:25:18,894] {scheduler_job.py:182} INFO - Started process (PID=124705) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:25:18,896] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:25:18,897] {logging_mixin.py:104} INFO - [2022-03-30 17:25:18,897] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:25:18,913] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:25:18,925] {logging_mixin.py:104} INFO - [2022-03-30 17:25:18,925] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:25:18,934] {logging_mixin.py:104} INFO - [2022-03-30 17:25:18,934] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:25:18,951] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.061 seconds
+[2022-03-30 17:25:53,683] {scheduler_job.py:182} INFO - Started process (PID=124841) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:25:53,685] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:25:53,686] {logging_mixin.py:104} INFO - [2022-03-30 17:25:53,686] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:25:53,704] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:25:53,731] {logging_mixin.py:104} INFO - [2022-03-30 17:25:53,731] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:25:53,746] {logging_mixin.py:104} INFO - [2022-03-30 17:25:53,746] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:25:53,768] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.092 seconds
+[2022-03-30 17:26:26,319] {scheduler_job.py:182} INFO - Started process (PID=124873) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:26:26,321] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:26:26,321] {logging_mixin.py:104} INFO - [2022-03-30 17:26:26,321] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:26:26,337] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:26:26,366] {logging_mixin.py:104} INFO - [2022-03-30 17:26:26,366] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:26:26,382] {logging_mixin.py:104} INFO - [2022-03-30 17:26:26,382] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:26:26,404] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.088 seconds
+[2022-03-30 17:26:59,627] {scheduler_job.py:182} INFO - Started process (PID=124995) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:26:59,628] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:26:59,629] {logging_mixin.py:104} INFO - [2022-03-30 17:26:59,629] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:26:59,641] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:26:59,660] {logging_mixin.py:104} INFO - [2022-03-30 17:26:59,660] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:26:59,676] {logging_mixin.py:104} INFO - [2022-03-30 17:26:59,675] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:26:59,689] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.067 seconds
+[2022-03-30 17:27:33,762] {scheduler_job.py:182} INFO - Started process (PID=125088) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:27:33,763] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:27:33,764] {logging_mixin.py:104} INFO - [2022-03-30 17:27:33,764] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:27:33,782] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:27:33,806] {logging_mixin.py:104} INFO - [2022-03-30 17:27:33,805] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:27:33,826] {logging_mixin.py:104} INFO - [2022-03-30 17:27:33,826] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:27:33,843] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.083 seconds
+[2022-03-30 17:28:07,778] {scheduler_job.py:182} INFO - Started process (PID=125119) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:28:07,780] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:28:07,781] {logging_mixin.py:104} INFO - [2022-03-30 17:28:07,781] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:28:07,799] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:28:07,813] {logging_mixin.py:104} INFO - [2022-03-30 17:28:07,812] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:28:07,820] {logging_mixin.py:104} INFO - [2022-03-30 17:28:07,820] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:28:07,833] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.058 seconds
+[2022-03-30 17:28:41,620] {scheduler_job.py:182} INFO - Started process (PID=125152) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:28:41,622] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:28:41,622] {logging_mixin.py:104} INFO - [2022-03-30 17:28:41,622] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:28:41,635] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:28:41,648] {logging_mixin.py:104} INFO - [2022-03-30 17:28:41,648] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:28:41,662] {logging_mixin.py:104} INFO - [2022-03-30 17:28:41,662] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:28:41,685] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.067 seconds
+[2022-03-30 17:29:13,836] {scheduler_job.py:182} INFO - Started process (PID=125184) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:29:13,837] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:29:13,838] {logging_mixin.py:104} INFO - [2022-03-30 17:29:13,838] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:29:13,849] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:29:13,863] {logging_mixin.py:104} INFO - [2022-03-30 17:29:13,863] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:29:13,875] {logging_mixin.py:104} INFO - [2022-03-30 17:29:13,875] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:29:13,891] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.060 seconds
+[2022-03-30 17:29:47,908] {scheduler_job.py:182} INFO - Started process (PID=125215) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:29:47,908] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:29:47,909] {logging_mixin.py:104} INFO - [2022-03-30 17:29:47,909] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:29:47,925] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:29:47,949] {logging_mixin.py:104} INFO - [2022-03-30 17:29:47,949] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:29:47,961] {logging_mixin.py:104} INFO - [2022-03-30 17:29:47,961] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:29:47,977] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.072 seconds
+[2022-03-30 17:30:21,403] {scheduler_job.py:182} INFO - Started process (PID=125246) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:30:21,404] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:30:21,405] {logging_mixin.py:104} INFO - [2022-03-30 17:30:21,405] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:30:21,414] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:30:21,424] {logging_mixin.py:104} INFO - [2022-03-30 17:30:21,424] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:30:21,438] {logging_mixin.py:104} INFO - [2022-03-30 17:30:21,438] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:30:21,458] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.059 seconds
+[2022-03-30 17:30:54,602] {scheduler_job.py:182} INFO - Started process (PID=125320) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:30:54,604] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:30:54,605] {logging_mixin.py:104} INFO - [2022-03-30 17:30:54,605] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:30:54,623] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:30:54,643] {logging_mixin.py:104} INFO - [2022-03-30 17:30:54,643] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:30:54,655] {logging_mixin.py:104} INFO - [2022-03-30 17:30:54,655] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:30:54,672] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.076 seconds
+[2022-03-30 17:31:28,051] {scheduler_job.py:182} INFO - Started process (PID=125352) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:31:28,052] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:31:28,053] {logging_mixin.py:104} INFO - [2022-03-30 17:31:28,053] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:31:28,064] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:31:28,074] {logging_mixin.py:104} INFO - [2022-03-30 17:31:28,074] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:31:28,081] {logging_mixin.py:104} INFO - [2022-03-30 17:31:28,081] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:31:28,095] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.047 seconds
+[2022-03-30 17:32:00,955] {scheduler_job.py:182} INFO - Started process (PID=125383) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:32:00,957] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:32:00,958] {logging_mixin.py:104} INFO - [2022-03-30 17:32:00,958] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:32:00,974] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:32:00,999] {logging_mixin.py:104} INFO - [2022-03-30 17:32:00,998] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:32:01,016] {logging_mixin.py:104} INFO - [2022-03-30 17:32:01,015] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:32:01,038] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.089 seconds
+[2022-03-30 17:32:34,983] {scheduler_job.py:182} INFO - Started process (PID=125415) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:32:34,985] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:32:34,987] {logging_mixin.py:104} INFO - [2022-03-30 17:32:34,987] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:32:35,013] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:32:35,035] {logging_mixin.py:104} INFO - [2022-03-30 17:32:35,035] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:32:35,045] {logging_mixin.py:104} INFO - [2022-03-30 17:32:35,045] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:32:35,059] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.078 seconds
+[2022-03-30 17:33:06,290] {scheduler_job.py:182} INFO - Started process (PID=125445) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:33:06,292] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:33:06,293] {logging_mixin.py:104} INFO - [2022-03-30 17:33:06,293] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:33:06,305] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:33:06,318] {logging_mixin.py:104} INFO - [2022-03-30 17:33:06,318] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:33:06,334] {logging_mixin.py:104} INFO - [2022-03-30 17:33:06,334] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:33:06,359] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.076 seconds
+[2022-03-30 17:33:41,375] {scheduler_job.py:182} INFO - Started process (PID=125477) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:33:41,376] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:33:41,377] {logging_mixin.py:104} INFO - [2022-03-30 17:33:41,377] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:33:41,398] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:33:41,422] {logging_mixin.py:104} INFO - [2022-03-30 17:33:41,422] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:33:41,434] {logging_mixin.py:104} INFO - [2022-03-30 17:33:41,434] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:33:41,450] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.079 seconds
+[2022-03-30 17:34:13,453] {scheduler_job.py:182} INFO - Started process (PID=125507) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:34:13,455] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:34:13,456] {logging_mixin.py:104} INFO - [2022-03-30 17:34:13,456] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:34:13,468] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:34:13,479] {logging_mixin.py:104} INFO - [2022-03-30 17:34:13,479] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:34:13,486] {logging_mixin.py:104} INFO - [2022-03-30 17:34:13,486] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:34:13,502] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.054 seconds
+[2022-03-30 17:34:46,897] {scheduler_job.py:182} INFO - Started process (PID=125536) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:34:46,899] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:34:46,901] {logging_mixin.py:104} INFO - [2022-03-30 17:34:46,900] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:34:46,911] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:34:46,925] {logging_mixin.py:104} INFO - [2022-03-30 17:34:46,924] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:34:46,931] {logging_mixin.py:104} INFO - [2022-03-30 17:34:46,931] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:34:46,944] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.052 seconds
+[2022-03-30 17:35:19,507] {scheduler_job.py:182} INFO - Started process (PID=125567) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:35:19,508] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:35:19,508] {logging_mixin.py:104} INFO - [2022-03-30 17:35:19,508] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:35:19,525] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:35:19,540] {logging_mixin.py:104} INFO - [2022-03-30 17:35:19,539] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:35:19,555] {logging_mixin.py:104} INFO - [2022-03-30 17:35:19,555] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:35:19,579] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.076 seconds
+[2022-03-30 17:35:53,370] {scheduler_job.py:182} INFO - Started process (PID=125643) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:35:53,372] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:35:53,372] {logging_mixin.py:104} INFO - [2022-03-30 17:35:53,372] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:35:53,382] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:35:53,392] {logging_mixin.py:104} INFO - [2022-03-30 17:35:53,392] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:35:53,398] {logging_mixin.py:104} INFO - [2022-03-30 17:35:53,398] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:35:53,412] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.048 seconds
+[2022-03-30 17:36:26,423] {scheduler_job.py:182} INFO - Started process (PID=125674) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:36:26,424] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:36:26,424] {logging_mixin.py:104} INFO - [2022-03-30 17:36:26,424] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:36:26,434] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:36:26,456] {logging_mixin.py:104} INFO - [2022-03-30 17:36:26,455] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:36:26,471] {logging_mixin.py:104} INFO - [2022-03-30 17:36:26,470] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:36:26,493] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.072 seconds
+[2022-03-30 17:36:57,524] {scheduler_job.py:182} INFO - Started process (PID=125704) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:36:57,526] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:36:57,528] {logging_mixin.py:104} INFO - [2022-03-30 17:36:57,527] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:36:57,537] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:36:57,550] {logging_mixin.py:104} INFO - [2022-03-30 17:36:57,550] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:36:57,568] {logging_mixin.py:104} INFO - [2022-03-30 17:36:57,568] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:36:57,595] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.079 seconds
+[2022-03-30 17:37:32,469] {scheduler_job.py:182} INFO - Started process (PID=125737) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:37:32,474] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:37:32,475] {logging_mixin.py:104} INFO - [2022-03-30 17:37:32,474] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:37:32,486] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:37:32,501] {logging_mixin.py:104} INFO - [2022-03-30 17:37:32,500] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:37:32,512] {logging_mixin.py:104} INFO - [2022-03-30 17:37:32,512] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:37:32,530] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.069 seconds
+[2022-03-30 17:38:07,866] {scheduler_job.py:182} INFO - Started process (PID=125770) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:38:07,868] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:38:07,869] {logging_mixin.py:104} INFO - [2022-03-30 17:38:07,869] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:38:07,888] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:38:07,902] {logging_mixin.py:104} INFO - [2022-03-30 17:38:07,902] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:38:07,929] {logging_mixin.py:104} INFO - [2022-03-30 17:38:07,928] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:38:07,944] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.083 seconds
+[2022-03-30 17:38:42,544] {scheduler_job.py:182} INFO - Started process (PID=125800) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:38:42,546] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:38:42,546] {logging_mixin.py:104} INFO - [2022-03-30 17:38:42,546] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:38:42,558] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:38:42,576] {logging_mixin.py:104} INFO - [2022-03-30 17:38:42,576] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:38:42,590] {logging_mixin.py:104} INFO - [2022-03-30 17:38:42,590] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:38:42,609] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.069 seconds
+[2022-03-30 17:39:15,018] {scheduler_job.py:182} INFO - Started process (PID=125888) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:39:15,021] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:39:15,023] {logging_mixin.py:104} INFO - [2022-03-30 17:39:15,022] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:39:15,043] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:39:15,059] {logging_mixin.py:104} INFO - [2022-03-30 17:39:15,059] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:39:15,074] {logging_mixin.py:104} INFO - [2022-03-30 17:39:15,074] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:39:15,097] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.083 seconds
+[2022-03-30 17:39:47,192] {scheduler_job.py:182} INFO - Started process (PID=125919) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:39:47,196] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:39:47,197] {logging_mixin.py:104} INFO - [2022-03-30 17:39:47,197] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:39:47,219] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:39:47,233] {logging_mixin.py:104} INFO - [2022-03-30 17:39:47,233] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:39:47,241] {logging_mixin.py:104} INFO - [2022-03-30 17:39:47,241] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:39:47,256] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.071 seconds
+[2022-03-30 17:40:18,398] {scheduler_job.py:182} INFO - Started process (PID=125948) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:40:18,400] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:40:18,401] {logging_mixin.py:104} INFO - [2022-03-30 17:40:18,401] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:40:18,421] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:40:18,442] {logging_mixin.py:104} INFO - [2022-03-30 17:40:18,442] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:40:18,457] {logging_mixin.py:104} INFO - [2022-03-30 17:40:18,457] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:40:18,475] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.083 seconds
+[2022-03-30 17:40:50,874] {scheduler_job.py:182} INFO - Started process (PID=126023) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:40:50,880] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:40:50,880] {logging_mixin.py:104} INFO - [2022-03-30 17:40:50,880] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:40:50,887] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:40:50,927] {logging_mixin.py:104} INFO - [2022-03-30 17:40:50,926] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:40:50,952] {logging_mixin.py:104} INFO - [2022-03-30 17:40:50,951] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:40:51,012] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.141 seconds
+[2022-03-30 17:41:26,181] {scheduler_job.py:182} INFO - Started process (PID=126115) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:41:26,183] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:41:26,186] {logging_mixin.py:104} INFO - [2022-03-30 17:41:26,186] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:41:26,202] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:41:26,214] {logging_mixin.py:104} INFO - [2022-03-30 17:41:26,214] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:41:26,224] {logging_mixin.py:104} INFO - [2022-03-30 17:41:26,223] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:41:26,238] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.063 seconds
+[2022-03-30 17:41:59,682] {scheduler_job.py:182} INFO - Started process (PID=126147) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:41:59,684] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:41:59,685] {logging_mixin.py:104} INFO - [2022-03-30 17:41:59,685] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:41:59,705] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:41:59,724] {logging_mixin.py:104} INFO - [2022-03-30 17:41:59,724] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:41:59,733] {logging_mixin.py:104} INFO - [2022-03-30 17:41:59,733] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:41:59,753] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.076 seconds
+[2022-03-30 17:42:31,032] {scheduler_job.py:182} INFO - Started process (PID=126176) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:42:31,033] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:42:31,034] {logging_mixin.py:104} INFO - [2022-03-30 17:42:31,034] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:42:31,046] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:42:31,062] {logging_mixin.py:104} INFO - [2022-03-30 17:42:31,062] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:42:31,072] {logging_mixin.py:104} INFO - [2022-03-30 17:42:31,072] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:42:31,087] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.058 seconds
+[2022-03-30 17:43:03,951] {scheduler_job.py:182} INFO - Started process (PID=126290) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:43:03,954] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:43:03,955] {logging_mixin.py:104} INFO - [2022-03-30 17:43:03,955] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:43:03,970] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:43:03,996] {logging_mixin.py:104} INFO - [2022-03-30 17:43:03,996] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:43:04,011] {logging_mixin.py:104} INFO - [2022-03-30 17:43:04,011] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:43:04,029] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.084 seconds
+[2022-03-30 17:43:38,019] {scheduler_job.py:182} INFO - Started process (PID=126323) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:43:38,020] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:43:38,020] {logging_mixin.py:104} INFO - [2022-03-30 17:43:38,020] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:43:38,029] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:43:38,052] {logging_mixin.py:104} INFO - [2022-03-30 17:43:38,052] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:43:38,064] {logging_mixin.py:104} INFO - [2022-03-30 17:43:38,064] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:43:38,081] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.065 seconds
+[2022-03-30 17:44:10,694] {scheduler_job.py:182} INFO - Started process (PID=126449) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:44:10,695] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:44:10,696] {logging_mixin.py:104} INFO - [2022-03-30 17:44:10,696] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:44:10,710] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:44:10,725] {logging_mixin.py:104} INFO - [2022-03-30 17:44:10,725] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:44:10,740] {logging_mixin.py:104} INFO - [2022-03-30 17:44:10,740] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:44:10,762] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.072 seconds
+[2022-03-30 17:44:43,382] {scheduler_job.py:182} INFO - Started process (PID=126540) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:44:43,384] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:44:43,385] {logging_mixin.py:104} INFO - [2022-03-30 17:44:43,385] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:44:43,399] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:44:43,415] {logging_mixin.py:104} INFO - [2022-03-30 17:44:43,415] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:44:43,430] {logging_mixin.py:104} INFO - [2022-03-30 17:44:43,430] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:44:43,454] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.077 seconds
+[2022-03-30 17:45:16,996] {scheduler_job.py:182} INFO - Started process (PID=126571) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:45:16,998] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:45:16,999] {logging_mixin.py:104} INFO - [2022-03-30 17:45:16,999] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:45:17,015] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:45:17,040] {logging_mixin.py:104} INFO - [2022-03-30 17:45:17,039] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:45:17,066] {logging_mixin.py:104} INFO - [2022-03-30 17:45:17,066] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:45:17,089] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.098 seconds
+[2022-03-30 17:45:51,176] {scheduler_job.py:182} INFO - Started process (PID=126646) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:45:51,177] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:45:51,178] {logging_mixin.py:104} INFO - [2022-03-30 17:45:51,178] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:45:51,190] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:45:51,204] {logging_mixin.py:104} INFO - [2022-03-30 17:45:51,204] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:45:51,214] {logging_mixin.py:104} INFO - [2022-03-30 17:45:51,214] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:45:51,233] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.060 seconds
+[2022-03-30 17:46:26,512] {scheduler_job.py:182} INFO - Started process (PID=126679) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:46:26,514] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:46:26,514] {logging_mixin.py:104} INFO - [2022-03-30 17:46:26,514] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:46:26,527] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:46:26,541] {logging_mixin.py:104} INFO - [2022-03-30 17:46:26,540] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:46:26,552] {logging_mixin.py:104} INFO - [2022-03-30 17:46:26,552] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:46:26,578] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.068 seconds
+[2022-03-30 17:46:59,312] {scheduler_job.py:182} INFO - Started process (PID=126749) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:46:59,313] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:46:59,314] {logging_mixin.py:104} INFO - [2022-03-30 17:46:59,314] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:46:59,329] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:46:59,351] {logging_mixin.py:104} INFO - [2022-03-30 17:46:59,351] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:46:59,362] {logging_mixin.py:104} INFO - [2022-03-30 17:46:59,361] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:46:59,389] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.081 seconds
+[2022-03-30 17:47:32,867] {scheduler_job.py:182} INFO - Started process (PID=126866) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:47:32,868] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:47:32,869] {logging_mixin.py:104} INFO - [2022-03-30 17:47:32,869] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:47:32,882] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:47:32,896] {logging_mixin.py:104} INFO - [2022-03-30 17:47:32,896] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:47:32,907] {logging_mixin.py:104} INFO - [2022-03-30 17:47:32,906] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:47:32,925] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.061 seconds
+[2022-03-30 17:48:04,232] {scheduler_job.py:182} INFO - Started process (PID=126896) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:48:04,233] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:48:04,234] {logging_mixin.py:104} INFO - [2022-03-30 17:48:04,233] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:48:04,247] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:48:04,259] {logging_mixin.py:104} INFO - [2022-03-30 17:48:04,258] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:48:04,270] {logging_mixin.py:104} INFO - [2022-03-30 17:48:04,270] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:48:04,293] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.065 seconds
+[2022-03-30 17:48:38,125] {scheduler_job.py:182} INFO - Started process (PID=126928) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:48:38,126] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:48:38,127] {logging_mixin.py:104} INFO - [2022-03-30 17:48:38,127] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:48:38,143] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:48:38,159] {logging_mixin.py:104} INFO - [2022-03-30 17:48:38,159] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:48:38,169] {logging_mixin.py:104} INFO - [2022-03-30 17:48:38,169] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:48:38,196] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.077 seconds
+[2022-03-30 17:49:13,931] {scheduler_job.py:182} INFO - Started process (PID=126962) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:49:13,933] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:49:13,934] {logging_mixin.py:104} INFO - [2022-03-30 17:49:13,934] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:49:13,948] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:49:13,963] {logging_mixin.py:104} INFO - [2022-03-30 17:49:13,962] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:49:13,979] {logging_mixin.py:104} INFO - [2022-03-30 17:49:13,978] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:49:14,000] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.073 seconds
+[2022-03-30 17:49:48,417] {scheduler_job.py:182} INFO - Started process (PID=126995) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:49:48,420] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:49:48,422] {logging_mixin.py:104} INFO - [2022-03-30 17:49:48,421] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:49:48,441] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:49:48,458] {logging_mixin.py:104} INFO - [2022-03-30 17:49:48,458] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:49:48,468] {logging_mixin.py:104} INFO - [2022-03-30 17:49:48,468] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:49:48,489] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.078 seconds
+[2022-03-30 17:50:21,757] {scheduler_job.py:182} INFO - Started process (PID=127027) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:50:21,758] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:50:21,760] {logging_mixin.py:104} INFO - [2022-03-30 17:50:21,759] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:50:21,775] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:50:21,799] {logging_mixin.py:104} INFO - [2022-03-30 17:50:21,799] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:50:21,818] {logging_mixin.py:104} INFO - [2022-03-30 17:50:21,818] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:50:21,841] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.091 seconds
+[2022-03-30 17:50:53,478] {scheduler_job.py:182} INFO - Started process (PID=127100) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:50:53,480] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:50:53,481] {logging_mixin.py:104} INFO - [2022-03-30 17:50:53,481] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:50:53,496] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:50:53,515] {logging_mixin.py:104} INFO - [2022-03-30 17:50:53,515] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:50:53,523] {logging_mixin.py:104} INFO - [2022-03-30 17:50:53,523] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:50:53,536] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.061 seconds
+[2022-03-30 17:51:25,470] {scheduler_job.py:182} INFO - Started process (PID=127130) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:51:25,471] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:51:25,472] {logging_mixin.py:104} INFO - [2022-03-30 17:51:25,472] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:51:25,487] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:51:25,511] {logging_mixin.py:104} INFO - [2022-03-30 17:51:25,511] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:51:25,525] {logging_mixin.py:104} INFO - [2022-03-30 17:51:25,525] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:51:25,544] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.080 seconds
+[2022-03-30 17:51:56,574] {scheduler_job.py:182} INFO - Started process (PID=127159) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:51:56,576] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:51:56,577] {logging_mixin.py:104} INFO - [2022-03-30 17:51:56,577] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:51:56,594] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:51:56,615] {logging_mixin.py:104} INFO - [2022-03-30 17:51:56,615] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:51:56,635] {logging_mixin.py:104} INFO - [2022-03-30 17:51:56,635] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:51:56,661] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.092 seconds
+[2022-03-30 17:52:31,543] {scheduler_job.py:182} INFO - Started process (PID=127191) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:52:31,545] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:52:31,546] {logging_mixin.py:104} INFO - [2022-03-30 17:52:31,546] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:52:31,563] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:52:31,575] {logging_mixin.py:104} INFO - [2022-03-30 17:52:31,575] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:52:31,583] {logging_mixin.py:104} INFO - [2022-03-30 17:52:31,583] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:52:31,607] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.069 seconds
+[2022-03-30 17:53:04,266] {scheduler_job.py:182} INFO - Started process (PID=127222) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:53:04,269] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:53:04,270] {logging_mixin.py:104} INFO - [2022-03-30 17:53:04,270] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:53:04,287] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:53:04,304] {logging_mixin.py:104} INFO - [2022-03-30 17:53:04,304] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:53:04,315] {logging_mixin.py:104} INFO - [2022-03-30 17:53:04,315] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:53:04,333] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.073 seconds
+[2022-03-30 17:53:36,908] {scheduler_job.py:182} INFO - Started process (PID=127252) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:53:36,909] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:53:36,910] {logging_mixin.py:104} INFO - [2022-03-30 17:53:36,909] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:53:36,921] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:53:36,938] {logging_mixin.py:104} INFO - [2022-03-30 17:53:36,937] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:53:36,953] {logging_mixin.py:104} INFO - [2022-03-30 17:53:36,952] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:53:36,971] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.070 seconds
+[2022-03-30 17:54:11,964] {scheduler_job.py:182} INFO - Started process (PID=127284) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:54:11,967] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:54:11,968] {logging_mixin.py:104} INFO - [2022-03-30 17:54:11,968] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:54:11,979] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:54:11,992] {logging_mixin.py:104} INFO - [2022-03-30 17:54:11,992] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:54:12,010] {logging_mixin.py:104} INFO - [2022-03-30 17:54:12,010] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:54:12,027] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.066 seconds
+[2022-03-30 17:54:44,247] {scheduler_job.py:182} INFO - Started process (PID=127314) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:54:44,248] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:54:44,249] {logging_mixin.py:104} INFO - [2022-03-30 17:54:44,249] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:54:44,256] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:54:44,273] {logging_mixin.py:104} INFO - [2022-03-30 17:54:44,273] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:54:44,289] {logging_mixin.py:104} INFO - [2022-03-30 17:54:44,289] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:54:44,314] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.071 seconds
+[2022-03-30 17:55:17,039] {scheduler_job.py:182} INFO - Started process (PID=127344) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:55:17,040] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:55:17,041] {logging_mixin.py:104} INFO - [2022-03-30 17:55:17,041] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:55:17,050] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:55:17,070] {logging_mixin.py:104} INFO - [2022-03-30 17:55:17,070] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:55:17,086] {logging_mixin.py:104} INFO - [2022-03-30 17:55:17,086] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:55:17,115] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.081 seconds
+[2022-03-30 17:55:49,287] {scheduler_job.py:182} INFO - Started process (PID=127454) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:55:49,289] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:55:49,290] {logging_mixin.py:104} INFO - [2022-03-30 17:55:49,290] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:55:49,301] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:55:49,318] {logging_mixin.py:104} INFO - [2022-03-30 17:55:49,318] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:55:49,398] {logging_mixin.py:104} INFO - [2022-03-30 17:55:49,398] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:55:49,423] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.141 seconds
+[2022-03-30 17:56:28,233] {scheduler_job.py:182} INFO - Started process (PID=127562) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:56:28,234] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:56:28,235] {logging_mixin.py:104} INFO - [2022-03-30 17:56:28,235] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:56:28,253] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:56:28,271] {logging_mixin.py:104} INFO - [2022-03-30 17:56:28,270] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:56:28,367] {logging_mixin.py:104} INFO - [2022-03-30 17:56:28,367] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:56:28,395] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.167 seconds
+[2022-03-30 17:56:58,453] {scheduler_job.py:182} INFO - Started process (PID=127600) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:56:58,455] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:56:58,456] {logging_mixin.py:104} INFO - [2022-03-30 17:56:58,456] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:56:58,473] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:56:58,496] {logging_mixin.py:104} INFO - [2022-03-30 17:56:58,495] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:56:58,586] {logging_mixin.py:104} INFO - [2022-03-30 17:56:58,586] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:56:58,613] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.166 seconds
+[2022-03-30 17:57:32,599] {scheduler_job.py:182} INFO - Started process (PID=127661) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:57:32,600] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:57:32,602] {logging_mixin.py:104} INFO - [2022-03-30 17:57:32,602] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:57:32,620] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:57:32,644] {logging_mixin.py:104} INFO - [2022-03-30 17:57:32,644] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:57:32,737] {logging_mixin.py:104} INFO - [2022-03-30 17:57:32,737] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:57:32,755] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.160 seconds
+[2022-03-30 17:58:09,042] {scheduler_job.py:182} INFO - Started process (PID=127797) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:58:09,045] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:58:09,047] {logging_mixin.py:104} INFO - [2022-03-30 17:58:09,046] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:58:09,066] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:58:09,082] {logging_mixin.py:104} INFO - [2022-03-30 17:58:09,082] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:58:09,163] {logging_mixin.py:104} INFO - [2022-03-30 17:58:09,163] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:58:09,182] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.148 seconds
+[2022-03-30 17:58:44,274] {scheduler_job.py:182} INFO - Started process (PID=127827) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:58:44,275] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:58:44,276] {logging_mixin.py:104} INFO - [2022-03-30 17:58:44,275] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:58:44,287] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:58:44,338] {logging_mixin.py:104} INFO - [2022-03-30 17:58:44,338] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:58:44,352] {logging_mixin.py:104} INFO - [2022-03-30 17:58:44,352] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:58:44,374] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.103 seconds
+[2022-03-30 17:59:17,660] {scheduler_job.py:182} INFO - Started process (PID=127856) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:59:17,663] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:59:17,664] {logging_mixin.py:104} INFO - [2022-03-30 17:59:17,664] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:59:17,679] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:59:17,754] {logging_mixin.py:104} INFO - [2022-03-30 17:59:17,753] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:59:17,764] {logging_mixin.py:104} INFO - [2022-03-30 17:59:17,764] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:59:17,781] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.126 seconds
+[2022-03-30 17:59:52,866] {scheduler_job.py:182} INFO - Started process (PID=127914) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:59:52,868] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 17:59:52,868] {logging_mixin.py:104} INFO - [2022-03-30 17:59:52,868] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:59:52,883] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 17:59:52,990] {logging_mixin.py:104} INFO - [2022-03-30 17:59:52,989] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 17:59:52,997] {logging_mixin.py:104} INFO - [2022-03-30 17:59:52,997] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 17:59:53,022] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.158 seconds
+[2022-03-30 18:00:25,051] {scheduler_job.py:182} INFO - Started process (PID=127941) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:00:25,053] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:00:25,054] {logging_mixin.py:104} INFO - [2022-03-30 18:00:25,054] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:00:25,083] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:00:25,181] {logging_mixin.py:104} INFO - [2022-03-30 18:00:25,181] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:00:25,196] {logging_mixin.py:104} INFO - [2022-03-30 18:00:25,196] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:00:25,213] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.167 seconds
+[2022-03-30 18:01:02,005] {scheduler_job.py:182} INFO - Started process (PID=128018) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:01:02,012] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:01:02,013] {logging_mixin.py:104} INFO - [2022-03-30 18:01:02,013] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:01:02,105] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:01:02,118] {logging_mixin.py:104} INFO - [2022-03-30 18:01:02,118] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:01:02,133] {logging_mixin.py:104} INFO - [2022-03-30 18:01:02,133] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:01:02,158] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.159 seconds
+[2022-03-30 18:01:36,982] {scheduler_job.py:182} INFO - Started process (PID=128050) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:01:36,983] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:01:36,984] {logging_mixin.py:104} INFO - [2022-03-30 18:01:36,984] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:01:37,055] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:01:37,076] {logging_mixin.py:104} INFO - [2022-03-30 18:01:37,076] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:01:37,095] {logging_mixin.py:104} INFO - [2022-03-30 18:01:37,095] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:01:37,115] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.135 seconds
+[2022-03-30 18:02:14,902] {scheduler_job.py:182} INFO - Started process (PID=128082) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:02:14,904] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:02:14,906] {logging_mixin.py:104} INFO - [2022-03-30 18:02:14,906] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:02:14,986] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:02:15,004] {logging_mixin.py:104} INFO - [2022-03-30 18:02:15,003] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:02:15,018] {logging_mixin.py:104} INFO - [2022-03-30 18:02:15,018] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:02:15,048] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.151 seconds
+[2022-03-30 18:02:49,989] {scheduler_job.py:182} INFO - Started process (PID=128110) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:02:50,080] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:02:50,082] {logging_mixin.py:104} INFO - [2022-03-30 18:02:50,082] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:02:50,094] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:02:50,117] {logging_mixin.py:104} INFO - [2022-03-30 18:02:50,117] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:02:50,136] {logging_mixin.py:104} INFO - [2022-03-30 18:02:50,136] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:02:50,153] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.171 seconds
+[2022-03-30 18:03:24,520] {scheduler_job.py:182} INFO - Started process (PID=128142) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:03:24,522] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:03:24,523] {logging_mixin.py:104} INFO - [2022-03-30 18:03:24,523] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:03:24,545] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:03:24,566] {logging_mixin.py:104} INFO - [2022-03-30 18:03:24,566] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:03:24,580] {logging_mixin.py:104} INFO - [2022-03-30 18:03:24,580] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:03:24,596] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.082 seconds
+[2022-03-30 18:03:55,943] {scheduler_job.py:182} INFO - Started process (PID=128218) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:03:55,945] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:03:55,946] {logging_mixin.py:104} INFO - [2022-03-30 18:03:55,946] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:03:55,965] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:03:55,989] {logging_mixin.py:104} INFO - [2022-03-30 18:03:55,989] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:03:56,011] {logging_mixin.py:104} INFO - [2022-03-30 18:03:56,011] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:03:56,038] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.100 seconds
+[2022-03-30 18:04:26,913] {scheduler_job.py:182} INFO - Started process (PID=128301) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:04:26,915] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:04:26,916] {logging_mixin.py:104} INFO - [2022-03-30 18:04:26,916] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:04:26,933] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:04:26,955] {logging_mixin.py:104} INFO - [2022-03-30 18:04:26,955] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:04:26,963] {logging_mixin.py:104} INFO - [2022-03-30 18:04:26,963] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:04:26,976] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.067 seconds
+[2022-03-30 18:05:02,005] {scheduler_job.py:182} INFO - Started process (PID=128347) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:05:02,007] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:05:02,008] {logging_mixin.py:104} INFO - [2022-03-30 18:05:02,007] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:05:02,026] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:05:02,046] {logging_mixin.py:104} INFO - [2022-03-30 18:05:02,046] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:05:02,059] {logging_mixin.py:104} INFO - [2022-03-30 18:05:02,059] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:05:02,077] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.079 seconds
+[2022-03-30 18:05:32,243] {scheduler_job.py:182} INFO - Started process (PID=128375) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:05:32,246] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:05:32,248] {logging_mixin.py:104} INFO - [2022-03-30 18:05:32,248] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:05:32,265] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:05:32,277] {logging_mixin.py:104} INFO - [2022-03-30 18:05:32,277] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:05:32,284] {logging_mixin.py:104} INFO - [2022-03-30 18:05:32,284] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:05:32,299] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.061 seconds
+[2022-03-30 18:06:04,465] {scheduler_job.py:182} INFO - Started process (PID=128448) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:06:04,467] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:06:04,468] {logging_mixin.py:104} INFO - [2022-03-30 18:06:04,468] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:06:04,485] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:06:04,504] {logging_mixin.py:104} INFO - [2022-03-30 18:06:04,504] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:06:04,516] {logging_mixin.py:104} INFO - [2022-03-30 18:06:04,516] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:06:04,537] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.076 seconds
+[2022-03-30 18:06:39,834] {scheduler_job.py:182} INFO - Started process (PID=128516) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:06:39,836] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:06:39,837] {logging_mixin.py:104} INFO - [2022-03-30 18:06:39,837] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:06:39,847] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:06:39,858] {logging_mixin.py:104} INFO - [2022-03-30 18:06:39,858] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:06:39,867] {logging_mixin.py:104} INFO - [2022-03-30 18:06:39,867] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:06:39,891] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.060 seconds
+[2022-03-30 18:07:12,635] {scheduler_job.py:182} INFO - Started process (PID=128549) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:07:12,637] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:07:12,638] {logging_mixin.py:104} INFO - [2022-03-30 18:07:12,638] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:07:12,657] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:07:12,680] {logging_mixin.py:104} INFO - [2022-03-30 18:07:12,679] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:07:12,697] {logging_mixin.py:104} INFO - [2022-03-30 18:07:12,697] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:07:12,721] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.091 seconds
+[2022-03-30 18:07:44,974] {scheduler_job.py:182} INFO - Started process (PID=128581) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:07:44,976] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:07:44,977] {logging_mixin.py:104} INFO - [2022-03-30 18:07:44,976] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:07:44,991] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:07:45,014] {logging_mixin.py:104} INFO - [2022-03-30 18:07:45,014] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:07:45,023] {logging_mixin.py:104} INFO - [2022-03-30 18:07:45,023] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:07:45,042] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.073 seconds
+[2022-03-30 18:08:15,113] {scheduler_job.py:182} INFO - Started process (PID=128610) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:08:15,117] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:08:15,118] {logging_mixin.py:104} INFO - [2022-03-30 18:08:15,118] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:08:15,134] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:08:15,151] {logging_mixin.py:104} INFO - [2022-03-30 18:08:15,151] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:08:15,163] {logging_mixin.py:104} INFO - [2022-03-30 18:08:15,163] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:08:15,178] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.072 seconds
+[2022-03-30 18:08:47,517] {scheduler_job.py:182} INFO - Started process (PID=128639) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:08:47,519] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:08:47,519] {logging_mixin.py:104} INFO - [2022-03-30 18:08:47,519] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:08:47,533] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:08:47,548] {logging_mixin.py:104} INFO - [2022-03-30 18:08:47,548] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:08:47,558] {logging_mixin.py:104} INFO - [2022-03-30 18:08:47,557] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:08:47,572] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.058 seconds
+[2022-03-30 18:09:20,932] {scheduler_job.py:182} INFO - Started process (PID=128670) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:09:20,934] {scheduler_job.py:633} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2022-03-30 18:09:20,934] {logging_mixin.py:104} INFO - [2022-03-30 18:09:20,934] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:09:20,953] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py
+[2022-03-30 18:09:20,967] {logging_mixin.py:104} INFO - [2022-03-30 18:09:20,967] {dag.py:1832} INFO - Sync 1 DAGs
+[2022-03-30 18:09:20,975] {logging_mixin.py:104} INFO - [2022-03-30 18:09:20,975] {dag.py:2305} INFO - Setting next_dagrun for test_utils to None
+[2022-03-30 18:09:20,988] {scheduler_job.py:190} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/test_utils.py took 0.059 seconds

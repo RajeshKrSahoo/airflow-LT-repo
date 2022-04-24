@@ -1,0 +1,222 @@
+[2022-04-17 15:38:41,189] {scheduler_job.py:182} INFO - Started process (PID=174325) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:38:41,214] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:38:41,223] {logging_mixin.py:104} INFO - [2022-04-17 15:38:41,223] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:38:41,380] {logging_mixin.py:104} INFO - [2022-04-17 15:38:41,249] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'elasticsearch_plugin.hooks.elastic_hook'
+[2022-04-17 15:38:41,380] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:38:41,637] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.453 seconds
+[2022-04-17 15:39:12,402] {scheduler_job.py:182} INFO - Started process (PID=174820) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:39:12,407] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:39:12,410] {logging_mixin.py:104} INFO - [2022-04-17 15:39:12,410] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:39:12,551] {logging_mixin.py:104} INFO - [2022-04-17 15:39:12,549] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'elasticsearch_plugin.hooks.elastic_hook'
+[2022-04-17 15:39:12,554] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:39:12,644] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.260 seconds
+[2022-04-17 15:39:42,733] {scheduler_job.py:182} INFO - Started process (PID=174949) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:39:42,746] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:39:42,747] {logging_mixin.py:104} INFO - [2022-04-17 15:39:42,747] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:39:42,754] {logging_mixin.py:104} INFO - [2022-04-17 15:39:42,753] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'elasticsearch_plugin.hooks.elastic_hook'
+[2022-04-17 15:39:42,754] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:39:42,824] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.095 seconds
+[2022-04-17 15:40:13,057] {scheduler_job.py:182} INFO - Started process (PID=175184) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:40:13,068] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:40:13,071] {logging_mixin.py:104} INFO - [2022-04-17 15:40:13,070] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:40:13,109] {logging_mixin.py:104} INFO - [2022-04-17 15:40:13,086] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'elasticsearch_plugin.hooks.elastic_hook'
+[2022-04-17 15:40:13,109] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:40:13,191] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.137 seconds
+[2022-04-17 15:40:43,289] {scheduler_job.py:182} INFO - Started process (PID=175359) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:40:43,304] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:40:43,309] {logging_mixin.py:104} INFO - [2022-04-17 15:40:43,308] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:40:43,338] {logging_mixin.py:104} INFO - [2022-04-17 15:40:43,336] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'elasticsearch_plugin.hooks.elastic_hook'
+[2022-04-17 15:40:43,344] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:40:43,428] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.145 seconds
+[2022-04-17 15:41:13,890] {scheduler_job.py:182} INFO - Started process (PID=175448) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:41:13,892] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:41:13,893] {logging_mixin.py:104} INFO - [2022-04-17 15:41:13,893] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:41:13,905] {logging_mixin.py:104} INFO - [2022-04-17 15:41:13,904] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'elasticsearch_plugin.hooks.elastic_hook'
+[2022-04-17 15:41:13,905] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:41:13,935] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.051 seconds
+[2022-04-17 15:41:44,231] {scheduler_job.py:182} INFO - Started process (PID=175537) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:41:44,233] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:41:44,234] {logging_mixin.py:104} INFO - [2022-04-17 15:41:44,234] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:41:44,244] {logging_mixin.py:104} INFO - [2022-04-17 15:41:44,244] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hook import ElasticHook
+ModuleNotFoundError: No module named 'elasticsearch_plugin.hooks.elastic_hook'
+[2022-04-17 15:41:44,245] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:41:44,277] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.050 seconds
+[2022-04-17 15:42:19,419] {scheduler_job.py:182} INFO - Started process (PID=175922) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:42:19,442] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:42:19,457] {logging_mixin.py:104} INFO - [2022-04-17 15:42:19,457] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:42:19,468] {logging_mixin.py:104} INFO - [2022-04-17 15:42:19,467] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hooks import ElasticHook
+  File "/home/airflow/airflow/plugins/elasticsearch_plugin/hooks/elastic_hooks.py", line 35
+    res= self.es.index(index=index, doc_type=doc_type doc=doc)
+                                                      ^
+SyntaxError: invalid syntax
+[2022-04-17 15:42:19,480] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:42:19,584] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.168 seconds
+[2022-04-17 15:42:49,780] {scheduler_job.py:182} INFO - Started process (PID=176239) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:42:49,798] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:42:49,798] {logging_mixin.py:104} INFO - [2022-04-17 15:42:49,798] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:42:49,805] {logging_mixin.py:104} INFO - [2022-04-17 15:42:49,803] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hooks import ElasticHook
+  File "/home/airflow/airflow/plugins/elasticsearch_plugin/hooks/elastic_hooks.py", line 35
+    res= self.es.index(index=index, doc_type=doc_type doc=doc)
+                                                      ^
+SyntaxError: invalid syntax
+[2022-04-17 15:42:49,827] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:42:49,881] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.104 seconds
+[2022-04-17 15:43:19,964] {scheduler_job.py:182} INFO - Started process (PID=176324) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:43:19,968] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:43:19,969] {logging_mixin.py:104} INFO - [2022-04-17 15:43:19,969] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:43:19,987] {logging_mixin.py:104} INFO - [2022-04-17 15:43:19,986] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hooks import ElasticHook
+  File "/home/airflow/airflow/plugins/elasticsearch_plugin/hooks/elastic_hooks.py", line 3, in <module>
+    from elasticsearch import Elasticsearch
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hooks import ElasticHook
+ImportError: cannot import name 'ElasticHook' from partially initialized module 'elasticsearch_plugin.hooks.elastic_hooks' (most likely due to a circular import) (/home/airflow/airflow/plugins/elasticsearch_plugin/hooks/elastic_hooks.py)
+[2022-04-17 15:43:19,988] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:43:20,039] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.081 seconds
+[2022-04-17 15:43:36,610] {scheduler_job.py:182} INFO - Started process (PID=176799) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:43:36,622] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:43:36,622] {logging_mixin.py:104} INFO - [2022-04-17 15:43:36,622] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:43:36,677] {logging_mixin.py:104} INFO - [2022-04-17 15:43:36,633] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hooks import ElasticHook
+  File "/home/airflow/airflow/plugins/elasticsearch_plugin/hooks/elastic_hooks.py", line 3, in <module>
+    from elasticsearch import Elasticsearch
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hooks import ElasticHook
+ImportError: cannot import name 'ElasticHook' from partially initialized module 'elasticsearch_plugin.hooks.elastic_hooks' (most likely due to a circular import) (/home/airflow/airflow/plugins/elasticsearch_plugin/hooks/elastic_hooks.py)
+[2022-04-17 15:43:36,681] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:43:36,757] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.149 seconds
+[2022-04-17 15:44:07,507] {scheduler_job.py:182} INFO - Started process (PID=177106) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:44:07,508] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:44:07,510] {logging_mixin.py:104} INFO - [2022-04-17 15:44:07,509] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:44:07,548] {logging_mixin.py:104} INFO - [2022-04-17 15:44:07,534] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hooks import ElasticHook
+  File "/home/airflow/airflow/plugins/elasticsearch_plugin/hooks/elastic_hooks.py", line 3, in <module>
+    from elasticsearch import Elasticsearch
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hooks import ElasticHook
+ImportError: cannot import name 'ElasticHook' from partially initialized module 'elasticsearch_plugin.hooks.elastic_hooks' (most likely due to a circular import) (/home/airflow/airflow/plugins/elasticsearch_plugin/hooks/elastic_hooks.py)
+[2022-04-17 15:44:07,549] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:44:07,735] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.246 seconds
+[2022-04-17 15:44:38,284] {scheduler_job.py:182} INFO - Started process (PID=177251) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:44:38,296] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:44:38,296] {logging_mixin.py:104} INFO - [2022-04-17 15:44:38,296] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:44:38,305] {logging_mixin.py:104} INFO - [2022-04-17 15:44:38,304] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hooks import ElasticHook
+  File "/home/airflow/airflow/plugins/elasticsearch_plugin/hooks/elastic_hooks.py", line 3, in <module>
+    from elasticsearch import Elasticsearch
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hooks import ElasticHook
+ImportError: cannot import name 'ElasticHook' from partially initialized module 'elasticsearch_plugin.hooks.elastic_hooks' (most likely due to a circular import) (/home/airflow/airflow/plugins/elasticsearch_plugin/hooks/elastic_hooks.py)
+[2022-04-17 15:44:38,321] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:44:38,434] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.153 seconds
+[2022-04-17 15:45:08,607] {scheduler_job.py:182} INFO - Started process (PID=177339) to work on /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:45:08,610] {scheduler_job.py:633} INFO - Processing file /home/airflow/airflow/dags/elasticsearch.py for tasks to queue
+[2022-04-17 15:45:08,611] {logging_mixin.py:104} INFO - [2022-04-17 15:45:08,611] {dagbag.py:487} INFO - Filling up the DagBag from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:45:08,620] {logging_mixin.py:104} INFO - [2022-04-17 15:45:08,620] {dagbag.py:320} ERROR - Failed to import: /home/airflow/airflow/dags/elasticsearch.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hooks import ElasticHook
+  File "/home/airflow/airflow/plugins/elasticsearch_plugin/hooks/elastic_hooks.py", line 3, in <module>
+    from elasticsearch import Elasticsearch
+  File "/home/airflow/airflow/dags/elasticsearch.py", line 6, in <module>
+    from elasticsearch_plugin.hooks.elastic_hooks import ElasticHook
+ImportError: cannot import name 'ElasticHook' from partially initialized module 'elasticsearch_plugin.hooks.elastic_hooks' (most likely due to a circular import) (/home/airflow/airflow/plugins/elasticsearch_plugin/hooks/elastic_hooks.py)
+[2022-04-17 15:45:08,621] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/airflow/airflow/dags/elasticsearch.py
+[2022-04-17 15:45:08,656] {scheduler_job.py:190} INFO - Processing /home/airflow/airflow/dags/elasticsearch.py took 0.055 seconds
